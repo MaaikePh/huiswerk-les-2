@@ -1,4 +1,4 @@
-# In deze opdracht ga je een script schrijven waarbij de gebruikter een geheim getal moet raden.
+# In deze opdracht ga je een script schrijven waarbij de gebruiker een geheim getal moet raden.
 #
 # Stappenplan:
 #
@@ -10,4 +10,3 @@
 #
 # BONUS: Gebruik `import random` en `random.randomInt(1, 10)` om je geheime getal mee te maken
 # en deze zo ook voor jezelf geheim te houden.
-

@@ -10,3 +10,18 @@
 
 # Het programma moet de volgende operaties ondersteunen: +, -, *, /
 # Als de gebruiker een ongeldige operatie invoert, moet het programma "Invalid operation" printen.
+
+nummer1 = float(input('Voer je eerste nummer in: '))
+nummer2 = float(input('Voer je tweede nummer in: '))
+operatie = input('Wat wil je met deze nummers doen, bijvoorbeeld +, -, * of /: ')
+
+if operatie == '+':
+    print(f'het resultaat is: {nummer1 + nummer2}')
+elif operatie == '-':
+    print(f'het resultaat is: {nummer1 - nummer2}')
+elif operatie == '*':
+    print(f'het resultaat is: {nummer1 * nummer2}')
+elif operatie == '/':
+    print(f'het resultaat is: {nummer1 / nummer2}')
+else :
+    print('Invoer ongeldig.')

@@ -10,3 +10,18 @@
 #
 # BONUS: Gebruik `import random` en `random.randomInt(1, 10)` om je geheime getal mee te maken
 # en deze zo ook voor jezelf geheim te houden.
+
+import random
+
+random_getal = random.randint(1, 10)
+
+nummer = int(input('Raad het getal. Welk getal kies je: '))
+
+while nummer < random_getal:
+    print('helaas je nummer is te laag. Probeer het opnieuw.')
+    nummer = int(input('Welk getal kies je: '))
+while nummer > random_getal:
+    print('Helaas je nummer is te hoog. Probeer het opnieuw.')
+    nummer = int(input('Welk getal kies je: '))
+if nummer == random_getal:
+    print('Gefeliciteerd, dat is het juiste nummer!')
